@@ -1,4 +1,4 @@
-## Automated website testing. Stepik project
+## Automated website testing. Stepik exercise
 Course: <b>Автоматизация тестирования с помощью Selenium и Python</b>
 
 Lesson 3.6, step 9
