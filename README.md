@@ -1,9 +1,9 @@
-# Autotest of web site. Stepik course exercise
+## Automated website testing. Stepik project
 Course: <b>Автоматизация тестирования с помощью Selenium и Python</b>
 
 Lesson 3.6, step 9
 
-Technologies, tools: Python/PyTest, Selenium 
+Tools: Python/PyTest, Selenium 
 
 Page of course: https://stepik.org/course/575/promo
 
@@ -11,6 +11,5 @@ Page of course: https://stepik.org/course/575/promo
 Задание: запуск автотестов для разных языков интерфейса
 Мы хотим, чтобы разрабатываемый нами интернет-магазин работал одинаково хорошо для пользователей из любой страны. Чтобы убедиться в работоспособности решения с поддержкой разн ых языков, мы планируем запускать набор автотестов для каждого языка. Вам как разработчику автотестов нужно реализовать решение, которое позволит запускать автотесты для разных языков пользователей, передавая нужный язык в командной строке. <...>
 
-source: https://stepik.org/course/575/promo
+source: https://stepik.org/course/575
 
-### How to review:
