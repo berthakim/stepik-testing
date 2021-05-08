@@ -1,18 +1,17 @@
 """
 тест проверяет, что страница товара на сайте содержит кнопку 
-добавления в корзину.
-http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/
+добавления в корзину
 """
 import time
+
 
 link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
 
-def test_button_exist(browser):
+def test_button_should_exist(browser):
     browser.get(link)
+    time.sleep(10)
+    assert browser.find_elements_by_css_selector(".btn-primary.btn-add-to-basket"), \
+        "Button doesn't exist :("
 
-    time.sleep(5)
-
-    button_is_here = browser.find_elements_by_css_selector(".btn.btn-lg.btn-primary.btn-add-to-basket")
-
-    assert len(button_is_here) > 0, "Button doesn't exist :("
+    # if list will be empty function return [] which is False. Else --> True
