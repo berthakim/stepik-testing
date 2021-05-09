@@ -13,4 +13,4 @@ Page of course: https://stepik.org/course/575
 
 Запустить тест с параметром language можно следующей командой:
 
-''' pytest --language=es test_items.py '''
+``` pytest --language=es test_items.py ```
